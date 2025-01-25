@@ -45,12 +45,7 @@ section{
     background-position: center;
     background-attachment: fixed;
 }
-/*.main{
-    display: flex;
-    justify-content: space-between;
-    align-items:left ;
-    margin: 30px 0px 10px 50px;
-}*/
+
 
 .main h2{
     display: inline-block;
@@ -59,12 +54,7 @@ section{
     font-size: 1.4em;
     font-weight: 500;
 }
-/*.main h2{
-    font-size: 1.4em;
-    font-weight: 500;
-    color: black;
-    
-}*/
+
 .main h2 span{
     display: inline-block;
     margin-top: 10px;
@@ -290,5 +280,27 @@ section{
             height: 100;
         }
     }
-
+    @media (max-width: 768px) {
+        header {
+            padding: 10px 10px;
+        }
+    
+        .navigation a {
+            padding: 10px;
+            font-size: 0.9em;
+        }
+    
+        .main h2 span {
+            font-size: 2em;
+        }
+    
+        .main h3 {
+            font-size: 1.5em;
+        }
+    
+        .section-img img {
+            width: 100%;
+            height: auto;
+        }
+    }
         
