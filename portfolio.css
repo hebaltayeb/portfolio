@@ -36,8 +36,8 @@ section{
 
 .main{
     width: 100%;
-    min-height: 100vh;
-    padding: 50px 100px;
+    /* min-height: 70vh; */
+    padding-top: 20vh;
     display: flex;
     align-items: center;
    /* background: url(img/9b0b2660-70c6-4ef5-a870-d3e555886b42.jpg) no-repeat;*/
@@ -240,6 +240,7 @@ section{
 }
 .main{ 
     padding: 30px 10px;
+    padding-top: 20vh;
 }
 .main h2{
     font-size:1em ;
@@ -288,6 +289,9 @@ section{
     @media (max-width: 768px) {
         header {
             padding: 10px 10px;
+        }
+        .main{
+            padding-top: 12vh;
         }
     
         .navigation a {
